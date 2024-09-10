@@ -63,7 +63,12 @@ born in the 1500's.
 let veryOldInventors = []
 
 // Complete the exercise in the space below:
-const 
+const bornFifteens = inventors.filter((inventor) => {
+  if(inventor.year >= 1500 && inventor.year <= 1599){
+    veryOldInventors.push(inventor);
+  }
+  return veryOldInventors;
+})
 
 
 // Check your work:
